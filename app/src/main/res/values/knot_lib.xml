@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Knot Information -->
+
+    <string name="kt_cleat_hitch_title">Cleat Hitch</string>
+    <string name="kt_cleat_hitch_uses">Securing lines to dock cleats.</string>
+    <string name="kt_cleat_hitch_s1">Take one and a half turns around the base of the cleat.</string>
+    <string name="kt_cleat_hitch_s2">Wrap the working end diagonally across the top, under the horn, and diagonally back.</string>
+    <string name="kt_cleat_hitch_s3">Bring the end back and place under the first cross.</string>
+
+    <string name="kt_fig8_title">Figure of Eight</string>
+    <string name="kt_fig8_uses">Tying the ends of lines to prevent them from pulling through blocks.</string>
+    <string name="kt_fig8_s1">Make a small loop near the end of the line.</string>
+    <string name="kt_fig8_s2">Pass the end of the line around the start and back through the loop.</string>
+    <string name="kt_fig8_s3">Pull both ends firmly.</string>
+
+    <string name="kt_rolling_hitch_title">Rolling Hitch</string>
+    <string name="kt_rolling_hitch_uses">Tying a line to another or to a spar.</string>
+    <string name="kt_rolling_hitch_s1">Wrap the working end around the stationary object.</string>
+    <string name="kt_rolling_hitch_s2">Make a second complete turn and cross the second over the first.</string>
+    <string name="kt_rolling_hitch_s3">Make a third turn but this time cross over the stationary part.</string>
+
+    <string name="kt_square_title">Reef Knot</string>
+    <string name="kt_square_uses">Tying a rope to itself.</string>
+    <string name="kt_square_s1">Take one end in each hand and pass one over and around the other.</string>
+    <string name="kt_square_s2">Cross the ends the opposite way.</string>
+    <string name="kt_square_s3">Make symmetrical and pull together.</string>
+
+</resources>

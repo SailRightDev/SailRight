@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Boat Information -->
+
+    <string name="boat_capri22_title">Capri 22</string>
+    <string name="boat_capri22_fulltitle">Catalina Capri 22</string>
+    <string name="boat_capri22_desc">Sloop-rigged, fiberglass mono-hulled, recreational keelboat.</string>
+    <item name="boat_capri22_len_ft" type="integer" format="float">22.0</item>
+    <item name="boat_capri22_draft_ft" type="integer" format="float">4.0</item>
+    <item name="boat_capri22_disp_lb" type="integer" format="float">2200.0</item>
+
+    <string name="boat_hunter31_title">Hunter 31</string>
+    <string name="boat_hunter31_fulltitle">Hunter Marine Hunter 31</string>
+    <string name="boat_hunter31_desc">Sloop-rigged, fiberglass mono-hulled, recreational keelboat.</string>
+    <item name="boat_hunter31_len_ft" type="integer" format="float">31.0</item>
+    <item name="boat_hunter31_draft_ft" type="integer" format="float">5.3</item>
+    <item name="boat_hunter31_disp_lb" type="integer" format="float">9700.0</item>
+
+    <string name="boat_oceanis37_title">Oceanis 37</string>
+    <string name="boat_oceanis37_fulltitle">Beneteau Oceanis 37</string>
+    <string name="boat_oceanis37_desc">Sloop-rigged, fiberglass mono-hulled, recreational keelboat.</string>
+    <item name="boat_oceanis37_len_ft" type="integer" format="float">37.0</item>
+    <item name="boat_oceanis37_draft_ft" type="integer" format="float">6.3</item>
+    <item name="boat_oceanis37_disp_lb" type="integer" format="float">14020.0</item>
+
+    <string name="boat_first44_title">First 44</string>
+    <string name="boat_first44_fulltitle">Beneteau First 44</string>
+    <string name="boat_first44_desc">Sloop-rigged, fiberglass mono-hulled, recreational keelboat.</string>
+    <item name="boat_first44_len_ft" type="integer" format="float">44.0</item>
+    <item name="boat_first44_draft_ft" type="integer" format="float">8.5</item>
+    <item name="boat_first44_disp_lb" type="integer" format="float">22700.0</item>
+
+</resources>

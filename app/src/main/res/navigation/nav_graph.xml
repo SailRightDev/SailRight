@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sailright.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_textbookFragment"
+            app:destination="@id/textbookFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_checkListsFragment"
+            app:destination="@id/checkListsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkListsFragment"
+        android:name="com.example.sailright.CheckListsFragment"
+        android:label="AllCheck"
+        tools:layout="@layout/fragment_check_lists" >
+        <action
+            android:id="@+id/action_checkListsFragment_to_checkListFragment"
+            app:destination="@id/checkListFragment" />
+        <action
+            android:id="@+id/action_checkListsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_checkListsFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_checkListsFragment_to_textbookFragment"
+            app:destination="@id/textbookFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkListFragment"
+        android:name="com.example.sailright.CheckListFragment"
+        android:label="SingleCheck"
+        tools:layout="@layout/fragment_check_list" >
+        <argument
+            android:name="boatNum"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_checkListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_checkListFragment_to_textbookFragment"
+            app:destination="@id/textbookFragment" />
+        <action
+            android:id="@+id/action_checkListFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/textbookFragment"
+        android:name="com.example.sailright.TextbookFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_textbook" >
+        <action
+            android:id="@+id/action_textbookFragment_to_knotListFragment"
+            app:destination="@id/knotListFragment" />
+        <action
+            android:id="@+id/action_textbookFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.sailright.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/knotListFragment"
+        android:name="com.example.sailright.KnotListFragment"
+        android:label="Knot List"
+        tools:layout="@layout/fragment_knot_list" >
+        <action
+            android:id="@+id/action_knotListFragment_to_knotDetailFragment"
+            app:destination="@id/knotDetailFragment" />
+        <action
+            android:id="@+id/action_knotListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/knotDetailFragment"
+        android:name="com.example.sailright.KnotDetailFragment"
+        android:label="Knot Detail"
+        tools:layout="@layout/fragment_knot_detail" >
+        <argument
+            android:name="knotNum"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_knotDetailFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>

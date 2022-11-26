@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SailRight</string>
+
+    <string name="my_test">My Test String</string>
+
+    <!-- Headline Messages -->
+
+    <string name="header_home">Welcome</string>
+    <string name="subheader_home">Welcome to SailRight, the sailor\'s app.\nClick below to get what you need, fast.</string>
+
+    <string name="header_textbook">Sailing Information</string>
+    <string name="subheader_textbook">Click on a topic below to refresh your knowledge.</string>
+
+    <string name="header_checklists">Sailboats</string>
+    <string name="subheader_checklists">Below are boats with checklists available. Click on a boat to review its list.</string>
+
+    <string name="header_knotlist">Knots</string>
+    <string name="subheader_knotlist">Below are a collection of useful sailing knots. Click on a knot to learn more.</string>
+
+    <string name="header_about">About SailRight</string>
+    <string name="subheader_about">Version information for this edition of the software.</string>
+    <string name="version_about_info">If you\'re reading this... Congratulations!\nYou\'re using an alpha release of our cool new software.\nEnjoy!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Checklist Questions -->
+    <string name="CLQ1">There are 5 or more life jackets oboard.</string>
+    <string name="CLQ2">There is a Type IV flotation device oboard.</string>
+    <string name="CLQ3">There is at least one flare on board.</string>
+    <string name="CLQ4">There is a medical kit onbard and is has not yet expired.</string>
+
+</resources>
